@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>JS 25 Codes</title>
+</head>
+
+<body>
+    <div class="outerDiv">
+        <div>
+            <div class="innerDiv" style="height: 200px;background-color: #7DA0CA;">
+                <div>
+                    <h1 style="color: White;">JavaScript 25 Simple Projects</h1>
+                </div>
+            </div>
+                 <!-- 1 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>1. Multiply</h3>
+                    <div class="inputDiv">
+                        <input id="mulInput1" type="number" placeholder="x"/>
+                        <input id="mulInput2" type="number" placeholder="y"/>
+                        <button type="button" onclick="mulButton()">Multiply</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>2. Get Planet Name By ID</h3>
+                    <div class="inputDiv">
+                        <input id="input1" type="number" placeholder="1-8"/>
+                        <button type="button" onclick="getPlanetName()">Check</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox2"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>3. Reversed Strings</h3>
+                    <div class="inputDiv">
+                        <input id="input3" type="text" placeholder="string"/>
+                        <button type="button" onclick="stringReverse()">Reverse</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox3"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>4. Even or Odd</h3>
+                    <div class="inputDiv">
+                        <input id="input4" type="number" placeholder="number"/>
+                        <button type="button" onclick="evenORodd()">Check</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox4"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>5. Counting sheep</h3>
+                    <div class="inputDiv">
+                        <input style="width: 70%;" id="input5" placeholder="true,false," type="text" />
+                        <button type="button" onclick="countSheeps()">Count</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox5"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>6. Vowel Count</h3>
+                    <div class="inputDiv">
+                        <input id="input6" type="text" placeholder="string"/>
+                        <button type="button" onclick="vowelCount()">Count</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox6"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>7. Jenny's secret message</h3>
+                    <div class="inputDiv">
+                        <input id="input7" type="text" placeholder="Johnny"/>
+                        <button type="button" onclick="jennySecret()">Greet</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button style="width: 80%;"><h4 id="resultBox7"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>8. Is n divisible by x and y?</h3>
+                    <div class="inputDiv">
+                        <input id="input80" type="number" placeholder="number"/>
+                        <input id="input81" type="number" placeholder="x"/>
+                        <input id="input82" type="number" placeholder="y"/>
+                        <button type="button" onclick="isDivisible()">Divisible</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox8"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>9. Return Negative</h3>
+                    <div class="inputDiv">
+                        <input id="input9" type="number" placeholder="number"/>
+                        <button type="button" onclick="makeNegative()">Convert</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox9"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>10. Find the smallest integer in the array</h3>
+                    <div class="inputDiv">
+                        <input id="input10" placeholder="num,num," type="text" />
+                        <button type="button" onclick="SmallestIntegerFinder()">Check</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox10"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>11. Grasshopper - Summation</h3>
+                    <div class="inputDiv">
+                        <input id="input11" type="number" placeholder="number"/>
+                        <button type="button" onclick="summation()">Output</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox11"></h4></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="innerDiv">
+                <div>
+                    <h3>12. Get the downward mean of an array</h3>
+                    <div class="inputDiv">
+                        <input id="input12" placeholder="num,num," type="text" />
+                        <button type="button" onclick="getAverage()">Check</button>
+                    </div>
+                    <div class="resultDiv">
+                        <h4>RESULT:</h4>
+                        <button><h4 id="resultBox12"></h4></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+   <div>
+    <!-- 13 -->
+    <div class="innerDiv">
+        <div>
+            <h3>13. Rock Paper Scissors!</h3>
+            <p>Insert Rock(r),Paper(p),Scissor(s)</p>
+            <div class="inputDiv">
+                <input id="mulInput13-1" type="text" placeholder="Player 1"/>
+                <input id="mulInput13-2" type="text" placeholder="Player 2"/>
+                <button type="button" onclick="rpsGame()">Play</button>
+            </div>
+            <div class="resultDiv">
+                <h4>RESULT:</h4>
+                <button><h4 id="resultBox13"></h4></button>
+            </div>
+        </div>
+    </div>
+    <!-- 14 -->
+    <div class="innerDiv">
+        <div>
+            <h3>14. Remove First and Last Character</h3>
+            <div class="inputDiv">
+                <input id="input14" type="text" placeholder="string" />
+                <button type="button" onclick="removeChar()">Remove</button>
+            </div>
+            <div class="resultDiv">
+                <h4>RESULT:</h4>
+                <button><h4 id="resultBox14"></h4></button>
+            </div>
+        </div>
+    </div>
+    <!-- 15 -->
+    <div class="innerDiv">
+        <div>
+            <h3>15. Sum of positive</h3>
+            <div class="inputDiv">
+                <input style="width: 70%;" id="input15" placeholder="num,num," type="text" />
+                <button type="button" onclick="positiveSum()">Check</button>
+            </div>
+            <div class="resultDiv">
+                <h4>RESULT:</h4>
+                <button><h4 id="resultBox15"></h4></button>
+            </div>
+        </div>
+    </div>
+    <!-- 16 -->
+    <div class="innerDiv">
+        <div>
+            <h3>16. Basic Mathematical Operations</h3>
+            <div class="inputDiv">
+                <input id="input16-1" type="number" placeholder="x"/>
+                <input id="input16-0" type="text"  placeholder="operator"/>
+                <input id="input16-2" type="number" placeholder="y"/>
+                <button type="button" onclick="basicOp()">Output</button>
+            </div>
+            <div class="resultDiv">
+                <h4>RESULT:</h4>
+                <button><h4 id="resultBox16"></h4></button>
+            </div>
+        </div>
+    </div>
+<!-- 17 -->
+<div class="innerDiv">
+    <div>
+        <h3>17. String repeat</h3>
+        <div class="inputDiv">
+            <input id="input17-1" type="number" placeholder="number"/>
+            <input id="input17-2" type="text" placeholder="string"/>
+            <button type="button" onclick="repeatStr()">Repeat</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox17"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 18 -->
+<div class="innerDiv">
+    <div>
+        <h3>18. Convert a string to an array</h3>
+        <div class="inputDiv">
+            <input id="input18" type="text" placeholder="str1 str2"/>
+            <button type="button" onclick="stringToArray()">Convert</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox18"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 19 -->
+<div class="innerDiv">
+    <div>
+        <h3>19. Remove String Spaces</h3>
+        <div class="inputDiv">
+            <input id="input19" type="text" placeholder="str1 str2"/>
+            <button type="button" onclick="noSpace()">Remove</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox19"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 20 -->
+<div class="innerDiv">
+    <div>
+        <h3>20. Beginner - Lost Without a Map</h3>
+        <div class="inputDiv">
+            <input id="input20" placeholder="num,num," type="text" />
+            <button type="button" onclick="maps()">Double</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox20"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 21 -->
+<div class="innerDiv">
+    <div>
+        <h3>21. Is he gonna survive?</h3>
+        <div class="inputDiv">
+            <input id="input21-1" type="number" placeholder="bullets" />
+            <input id="input21-2" type="number" placeholder="dragons"/>
+            <button type="button" onclick="hero()">Check</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox21"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 22 -->
+<div class="innerDiv">
+    <div>
+        <h3>22. Array plus array</h3>
+        <div class="inputDiv">
+            <input id="input22-1" placeholder="num,num," type="text" />
+            <input id="input22-2" placeholder="num,num," type="text" />
+            <button type="button" onclick="arrayPlusArray()">Double</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox22"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 23 -->
+<div class="innerDiv">
+    <div>
+        <h3>23. Century From Year</h3>
+        <div class="inputDiv">
+            <input id="input23" type="number" placeholder="year" />
+            <button type="button" onclick="century()">Century</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox23"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 24 -->
+<div class="innerDiv">
+    <div>
+        <h3>24. Cat years, Dog years</h3>
+        <div class="inputDiv">
+            <input id="input24" type="number" placeholder="human age"/>
+            <button type="button" onclick="humanYearsCatYearsDogYears()">Calculate</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox24"></h4></button>
+        </div>
+    </div>
+</div>
+<!-- 25 -->
+<div class="innerDiv">
+    <div>
+        <h3>25. Total amount of points</h3>
+        <div class="inputDiv">
+            <input id="input25" placeholder="x:y,x:y," type="text" />
+            <button type="button" onclick="points()">Points</button>
+        </div>
+        <div class="resultDiv">
+            <h4>RESULT:</h4>
+            <button><h4 id="resultBox25"></h4></button>
+        </div>
+    </div>
+</div>
+   </div>
+    </div>
+</body>
+
+</html>

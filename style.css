@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bungee+Spice&family=Foldit:wght@100..900&family=Gugi&family=Noto+Color+Emoji&family=Play:wght@400;700&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: "Victor Mono", monospace;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+.outerDiv{
+    margin: 20px;
+    background-color: #E6CAB3;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+   align-items: center;
+}
+.innerDiv{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #5483B3;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputDiv{
+    padding: 10px;
+}
+.inputDiv input{
+    width: 30%;
+    text-align: center;
+    height: 2em;
+    border-radius: 5px;
+}
+.inputDiv button{
+    padding:8px;
+    text-align: center;
+    background-color: rgb(236, 199, 105);
+    border: none;
+    border-radius: 5px;
+}
+.inputDiv button:hover{
+    opacity: 0.8;
+}
+
+.resultDiv{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.resultDiv button{
+    padding: 5px;
+    border: none;
+    width: 100%;
+    margin-left: 1em;
+    border-radius: 10px;
+    height: 2em;
+}
+
