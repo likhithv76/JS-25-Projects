@@ -1,5 +1,5 @@
 # *25 Javascript Coding Challenges*
-live at: https://likhithv76.github.io/JS-25-Projects/
+live at: https://likhithv76.github.io/JS-25-Projects/ [NON-Responsive]
 --------------------------------------
 
 ## 1. Multiply
